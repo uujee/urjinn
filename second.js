@@ -67,7 +67,6 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
             document.getElementById("name-" + activePlayer).textContent = "WINNER!!!";
             
             document.querySelector(".player-" + activePlayer + "-panel");
-            
             document.querySelector(".palyer-" + activePlayer + "-panel");
         } else {
             switchToNextPlayer();
@@ -87,7 +86,7 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
         document.querySelector(".player-0-panel").classList.toggle("active");
 
         document.querySelector(".player-1-panel").classList.toggle("active");
-        
+
         diceDom.style.display = "none";
     }
 
